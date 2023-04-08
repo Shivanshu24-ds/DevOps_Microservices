@@ -56,7 +56,8 @@ source .devops/bin/activate
 * Run via kubectl
 
 ### Directory Structure
-<!-- Directory/File	                Description
+Directory/File	                Description
+===============             ==================   
 .circleci/config.yml	    CircleCI configuration
 model_data	                Trained model data for housing prices in Boston
 output_txt_files	        Docker and Kubernetes log output
@@ -67,4 +68,4 @@ Makefile	                Build file of the project
 requirements.txt	        Python requirements
 run_docker.sh	            Shell script for creating and running docker container
 run_kubernetes.sh	        Shell script to deploy docker container on Kubernetes cluster
-upload_docker.sh	        Shell script for uploading locally built docker image to dockerhub repository -->
+upload_docker.sh	        Shell script for uploading locally built docker image to dockerhub repository
